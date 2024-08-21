@@ -1,18 +1,61 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --primary-shade4: #330004;
+  --primary-shade3: #660008;
+  --primary-shade2: #99000D;
+  --primary-shade1: #CC0011;
+  --primary: #FF0015;
+  --primary-tint1: #FF3344;
+  --primary-tint2: #FF6673;
+  --primary-tint3: #FF99A1;
+  --primary-tint4: #FFCCD0;
+  --primary-tint5: #FFE5E8;
+
+  --secondary-shade4: #1A1A1A;
+  --secondary-shade3: #333333;
+  --secondary-shade2: #4D4D4D;
+  --secondary-shade1: #666666;
+  --secondary: #808080;
+  --secondary-tint1: #999999;
+  --secondary-tint2: #B3B3B3;
+  --secondary-tint3: #CCCCCC;
+  --secondary-tint4: #E6E6E6;
+  --secondary-tint5: #F2F2F2;
+
+  --tertiary-shade4: #003300;
+  --tertiary-shade3: #006600;
+  --tertiary-shade2: #009900;
+  --tertiary-shade1: #00CC00;
+  --tertiary: #00FF00;
+  --tertiary-tint1: #33FF33;
+  --tertiary-tint2: #66FF66;
+  --tertiary-tint3: #99FF99;
+  --tertiary-tint4: #CCFFCC;
+  --tertiary-tint5: #E5FFE5;
+
+  --quaternary-shade4: #333300;
+  --quaternary-shade3: #666600;
+  --quaternary-shade2: #999900;
+  --quaternary-shade1: #CCCC00;
+  --quaternary: #FFFF00;
+  --quaternary-tint1: #FFFF33;
+  --quaternary-tint2: #FFFF66;
+  --quaternary-tint3: #FFFF99;
+  --quaternary-tint4: #FFFFCC;
+  --quaternary-tint5: #FFFFE5;
 }
